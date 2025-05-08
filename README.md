@@ -1,6 +1,6 @@
-# CleanDatasetAnalyzer
+# DatasetAnalyzer
 
-`CleanDatasetAnalyzer` is a Python class designed to analyze datasets and provide valuable insights before performing any data preprocessing. It offers a comprehensive set of features to explore numeric, categorical, and datetime data, check for missing values, duplicates, and calculate various statistics. It can also assess the distribution and normality of numerical columns, and help detect imbalance in the target column.
+`DatasetAnalyzer` is a Python class designed to analyze datasets and provide valuable insights before performing any data preprocessing. It offers a comprehensive set of features to explore numeric, categorical, and datetime data, check for missing values, duplicates, and calculate various statistics. It can also assess the distribution and normality of numerical columns, and help detect imbalance in the target column.
 
 ## Features
 
@@ -26,7 +26,7 @@ pip install pandas numpy scipy
 ### 1. Import the class and create an instance:
 
 ```python
-from clean_dataset_analyzer import CleanDatasetAnalyzer
+from main import DatasetAnalyzer
 import pandas as pd
 
 # Sample dataset
@@ -37,7 +37,7 @@ data = pd.DataFrame({
 })
 
 # Instantiate the analyzer
-analyzer = CleanDatasetAnalyzer(data)
+analyzer = DatasetAnalyzer(data)
 ```
 
 ### 2. Analyze the dataset:
